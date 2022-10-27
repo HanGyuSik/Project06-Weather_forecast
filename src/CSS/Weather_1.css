@@ -1,0 +1,62 @@
+h1{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.weather_form{
+  display: flex;
+  justify-content: center;
+}
+
+.weatherbt1{
+  display: flex;
+  padding: 13px 15px;
+  background-color: tomato;
+  transition: all 0.5s ease-in-out;
+  font-weight: bold;
+  border-style: none;
+}
+
+.weatherbt1:hover{
+  background-color: rgba(0, 255, 255, 30%);
+  border-style: solid;
+  border-width: 1px;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.day_1{
+  justify-content: center;
+  margin: 1px;
+  display: flex;
+  font-size: 20px;
+}
+
+.day_sp{
+  margin: 0 10px 0 0;
+  display: inline-flex;
+  width: 30%;
+  background-color: rgba(0, 255, 255, 30%);
+}
+
+.day_sp2{
+  font-weight: bold;
+  display: inline-flex;
+  width: 30%;
+  margin: 0 0 0 20px;
+  background-color: rgba(255, 255, 0, 30%);
+}

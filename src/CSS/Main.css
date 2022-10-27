@@ -1,0 +1,22 @@
+.btt1{
+  /* display: block; */
+  border-style: none;
+  width: 400px;
+  height: 150px;
+  margin: 20px auto;
+  font-size: 35px;
+  transition: all 0.5s ease-in-out;
+
+}
+
+.btt1:hover{
+  background-color: tomato;
+  color: white;
+  font-weight: bold;
+}
+
+.ddi{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
